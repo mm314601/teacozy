@@ -49,39 +49,29 @@ h4 {
 
 .header img {
   height:50px;
-   padding-left: 10px;
- }
+  padding-left: 10px;
+}
 
 .header nav{
   align-items:flex-end;
-  text-align:right;
+  flex-direction:column;
   flex-grow:1;
   justify-content: center;
-  flex-direction:column;
+  text-align:right;
 }
 
 .header nav a{
-  padding:  0px 20px;
   color: seashell;
   flex-grow:1;
+  padding:  0px 20px;
 }
 
 .main{
-  padding-top: 69px; /* To offset fixed header */
+  flex-direction:column;
+  margin: auto;
   opacity: 0.9;
+  padding-top: 69px; /* To offset fixed header */
   width: 1200px;
-  margin: auto;
-  flex-direction:column;
-}
-
-.middle_part{
-  display:flex;
-  margin: auto;
-
-}
-
-.middle_part row_of_images{
-  flex-direction:column;
 }
 
 .middle_image img{
@@ -89,16 +79,25 @@ h4 {
   width:300px;
 }
 
-.top_part{
+.middle_part{
   display:flex;
+  margin: auto;
+}
+
+div.row_of_images{
+  display:block;
   flex-direction:column;
 
-  height:700px;
-  /*width:1200px;*/
+}
+
+.top_part{
   align-items: center;
   background-image:url('../images/img-mission-background.jpg');
-  position:relative;
+  display:flex;
+  flex-direction:column;
+  height:700px;
   margin:auto;
+  position:relative;
 }
 
 
