@@ -10,14 +10,19 @@
 
 }
 .header{
-  display: inline-flex;
-  /*position: fixed;*/
-  top:0px;
-  height:79px;
-  margin:0px auto;
-  font-weight: bold;
   align-items:center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  display: inline-flex;
+  font-weight: bold;
   flex-basis:auto;
+  justify-content:center;
+  position:fixed;
+  height: 69px;
+  margin:0px auto;
+  top:0px;
+  width: 100%;
+  z-index: 1;
 }
 
 .blackbackground{
@@ -26,35 +31,39 @@
   align-items:center;
   justify-content:space-between;
   background-color:black;
+  opacity:1;
+  width:100%;
 }
-
-
 
 .header nav{
   align-items:flex-end;
-
+  text-align:right;
+  flex-grow:1;
+  justify-content: center;
+  flex-direction:column;
 }
 
 .div#tc_logo{
   display:flex;
-  flex-grow:1;
+  height:50px;
+  padding-left:10px;
 }
 
 .header nav a{
-  /*display:flex;*/
   padding:  0px 20px;
   color: seashell;
   flex-grow:1;
 }
 
 .top_part{
-display:flex;
-flex-direction:column;
-height:700px;
-width:1200px;
-align-items: center;
-background-image:url('../images/img-mission-background.jpg');
-position:relative;
+  display:flex;
+  flex-direction:column;
+
+  height:700px;
+  width:1200px;
+  align-items: center;
+  background-image:url('../images/img-mission-background.jpg');
+  position:relative;
 }
 
 
