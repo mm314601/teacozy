@@ -33,6 +33,14 @@ h4 {
   margin: 0;
 }
 
+.contact_info{
+  height:200px;
+}
+
+.footer{
+  text-align:left;
+}
+
 .header{
   align-items:center;
   border-bottom: 1px solid seashell;
