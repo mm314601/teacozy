@@ -71,10 +71,22 @@ h4 {
   opacity: 0.9;
   width: 1200px;
   margin: auto;
+  flex-direction:column;
 }
 
 .middle_part{
+  display:flex;
+  margin: auto;
 
+}
+
+.middle_part row_of_images{
+  flex-direction:column;
+}
+
+.middle_image img{
+  height:200px;
+  width:300px;
 }
 
 .top_part{
