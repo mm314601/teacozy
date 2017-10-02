@@ -1,0 +1,104 @@
+/* Universal Styles */
+*{
+  border: 1px solid red;
+  background-color: black;
+  color: seashell;
+  font-family:Helvetica;
+  font-size:22px;
+  opacity: 0.9;
+  justify-content:center;
+
+}
+.header{
+  display: inline-flex;
+  /*position: fixed;*/
+  top:0px;
+  height:79px;
+  margin:0px auto;
+  font-weight: bold;
+  align-items:center;
+  flex-basis:auto;
+}
+
+.blackbackground{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  background-color:black;
+}
+
+
+
+.header nav{
+  align-items:flex-end;
+
+}
+
+.header nav a{
+  /*display:flex;*/
+  padding:  0px 20px;
+  color: seashell;
+}
+
+.top_part{
+display:flex;
+flex-direction:column;
+height:700px;
+width:1200px;
+align-items: center;
+background-image:url('../images/img-mission-background.jpg');
+position:relative;
+}
+
+
+.middle_part{
+
+}
+
+.bottom_part{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+  display:flex;
+}
+
+.column.large {
+  display:flex;
+  flex-direction:column;
+  width: 630px;
+}
+
+.column.medium {
+  display:flex;
+  width: 300px;
+}
+
+.column.small {
+  display:flex;
+  width: 240px;
+}
+
+.row.stories{
+  display:inline-flex;
+}
+
+.column.story_left{
+  flex-grow: 1;
+}
+
+.column.story_right{
+  flex-grow: 1;
+}
