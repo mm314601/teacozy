@@ -1,8 +1,6 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-  <title>My Times</title>
+  <title>Tea Cozy</title>
   <link rel="stylesheet" href="resources/css/style.css" type="text/css">
 </head>
 <body>
@@ -10,9 +8,7 @@
   <!-- Header -->
 
   <div class="header">
-    <!-- <div id="tc_logo"> -->
     <img src="resources\images\img-tea-cozy-logo.png" />
-    <!-- </div> -->
     <nav>
       <span><a href="#mission">Mission</a></span>
       <span><a href="#featuredtea">Featured Tea</a></span>
@@ -20,8 +16,11 @@
     </nav>
   </div>
 
+<!-- main part. This part being "main" and not "<div class="main">" made it difficult to debug later.-->
   <main>
-    <div class="top_part" id="#mission">
+    <div class="top_part" id="mission">
+      <!--As it turns out, the blackbackground div doesn't actually help anything.
+        I am keeping it because it also doesn't hurt anything.-->
       <div class="blackbackground">
         <h2>
           Our Mission
@@ -33,7 +32,7 @@
       </div>
     </div>
 
-    <div class="middle_part" id="#featuredtea">
+    <div class="middle_part" id="featuredtea">
       <h2>
         Tea of the Month
       </h2>
@@ -42,34 +41,34 @@
       </h4>
       <div class="row_of_images">
         <div class="middle_image">
-          <img src="resources/images/img-berryblitz.jpg">
+          <img src="resources\images\img-berryblitz.jpg" />
           <span>Fall Berry Blitz Tea</span>
         </div>
 
         <div class="middle_image">
-          <img src="resources/images/img-spiced-rum.jpg">
+          <img src="resources\images\img-spiced-rum.jpg" />
           <span>Spiced Rum Tea</span>
         </div>
 
         <div class="middle_image">
-          <img src="resources/images/img-donut.jpg">
+          <img src="resources\images\img-donut.jpg" />
           <span>Seasonal Donuts</span>
         </div>
 
         <div class="middle_image">
-          <img src="resources/images/img-myrtle-ave.jpg">
+          <img src="resources\images\img-myrtle-ave.jpg" />
           <span>Myrtle Ave Tea</span>
         </div>
 
         <div class="middle_image">
-          <img src="resources/images/img-bedford-bizarre.jpg">
+          <img src="resources\images\img-bedford-bizarre.jpg" />
           <span>Bedford Bizarre Tea</span>
         </div>
       </div>
     </div>
 
 
-    <div class="bottom_part" id="#Locations">
+    <div class="bottom_part" id="locations">
       <h2>
         Locations
       </h2>
@@ -146,3 +145,4 @@
 
 </body>
 </html>
+<!-- It's over -->
